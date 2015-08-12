@@ -154,7 +154,7 @@ public class PathDrawer extends ActionBarActivity implements
     public void onLocationChanged(Location location) {
         Log.d(TAG, "Firing onLocationChanged..............................................");
         mCurrentLocation = location;
-        //  map.clear();
+        map.clear();
         updateUI(dest);
     }
 
